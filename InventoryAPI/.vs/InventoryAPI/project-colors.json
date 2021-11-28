@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c5bdcb6c-e19a-4cde-8ffd-b7da120ee9ed": {
+      "ProjectGuid": "c5bdcb6c-e19a-4cde-8ffd-b7da120ee9ed",
+      "DisplayName": "InventoryAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
