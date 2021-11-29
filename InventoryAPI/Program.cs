@@ -10,6 +10,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//EF CORE
 builder.Services.AddDbContext<InventoryContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("MyConnectionString")));
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
